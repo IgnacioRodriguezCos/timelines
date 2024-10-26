@@ -1,0 +1,226 @@
+body{
+    background-color: rgb(68, 95, 218);
+}
+
+.header {
+    display: flex;
+    justify-content: space-between; /* Espacio entre el título y el enlace */
+    align-items: center; /* Centrar verticalmente los elementos */
+    padding-left: 5%;
+    padding-right: 5%; /* Agregar un margen derecho para equilibrio */
+    padding-top: 2%;
+    padding-bottom: 2%;
+    background-color: rgb(1, 35, 185);
+    height: 90%;
+}
+
+.titulo {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(253, 253, 253);
+    letter-spacing: 2px;
+    font-size: 300%;
+    margin: 0; /* Eliminar márgenes para evitar desalineación */
+}
+
+.volver {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(253, 253, 253);
+    letter-spacing: 2px;
+    font-size: 200%;
+    margin: 0; /* Eliminar márgenes para evitar desalineación */
+}
+
+.volvera {
+    text-decoration: none;
+}
+
+.linea{
+    display: block;
+    margin-top: 6%;
+    height: 30px;
+    background-color: lightgray; /* Color de fondo para que sea visible */
+}
+
+.foto-container {
+    width: 100px; /* Fija el ancho del contenedor */
+    height: 200px; /* Fija la altura del contenedor */
+    overflow: hidden; /* Oculta cualquier parte de la imagen que sobresalga */
+    transform: translateY(-60%) translateX(200%);
+}
+
+
+.foto-container2 {
+    width: 100px; /* Fija el ancho del contenedor */
+    height: 200px; /* Fija la altura del contenedor */
+    overflow: hidden; /* Oculta cualquier parte de la imagen que sobresalga */
+    transform: translateY(-160%) translateX(780%);
+}
+
+.foto-container3 {
+    width: 100px; /* Fija el ancho del contenedor */
+    height: 200px; /* Fija la altura del contenedor */
+    overflow: hidden; /* Oculta cualquier parte de la imagen que sobresalga */
+    transform: translateY(-260%) translateX(900%);
+}
+
+.foto-container4 {
+    width: 100px; /* Fija el ancho del contenedor */
+    height: 200px; /* Fija la altura del contenedor */
+    overflow: hidden; /* Oculta cualquier parte de la imagen que sobresalga */
+    transform: translateY(-360%) translateX(1020%);
+}
+
+.foto-container5 {
+    width: 100px; /* Fija el ancho del contenedor */
+    height: 200px; /* Fija la altura del contenedor */
+    overflow: hidden; /* Oculta cualquier parte de la imagen que sobresalga */
+    transform: translateY(-460%) translateX(1220%);
+}
+
+.foto-container6 {
+    width: 100px; /* Fija el ancho del contenedor */
+    height: 200px; /* Fija la altura del contenedor */
+    overflow: hidden; /* Oculta cualquier parte de la imagen que sobresalga */
+    transform: translateY(-560%) translateX(1400%);
+}
+
+.foto-container7 {
+    width: 100px; /* Fija el ancho del contenedor */
+    height: 200px; /* Fija la altura del contenedor */
+    overflow: hidden; /* Oculta cualquier parte de la imagen que sobresalga */
+    transform: translateY(-660%) translateX(1700%);
+}
+
+.foto {
+    width: 100%;
+    height: 100%;
+    background-size: cover; /* Asegura que la imagen cubra todo el contenedor */
+    background-position: center; /* Centra la imagen */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    transition: background-image 0.3s ease; /* Transición suave al cambiar la imagen */
+}
+
+.foto-container:hover {
+    content:url('origins.png');
+}
+
+.foto-container2:hover {
+    content: url('x1.png');
+}
+
+.foto-container3:hover {
+    content: url('x2.png');
+}
+
+.foto-container4:hover {
+    content: url('x3.png');
+}
+
+.foto-container5:hover {
+    content: url('wolv.png');
+}
+
+.foto-container6:hover {
+    content: url('DOFP.png');
+}
+
+.foto-container7:hover {
+    content: url('logan.png');
+}
+
+.linea2{
+    display: block;
+    height: 30px;
+    background-color: lightgray; /* Color de fondo para que sea visible */
+    transform: translateY(-3960%);
+}
+
+.foto-container8 {
+    width: 100px; /* Fija el ancho del contenedor */
+    height: 200px; /* Fija la altura del contenedor */
+    overflow: hidden; /* Oculta cualquier parte de la imagen que sobresalga */
+    transform: translateY(-650%) translateX(80%);
+}
+
+.foto-container9 {
+    width: 100px; /* Fija el ancho del contenedor */
+    height: 200px; /* Fija la altura del contenedor */
+    overflow: hidden; /* Oculta cualquier parte de la imagen que sobresalga */
+    transform: translateY(-750%) translateX(200%);
+}
+
+
+.foto-container10 {
+    width: 100px; /* Fija el ancho del contenedor */
+    height: 200px; /* Fija la altura del contenedor */
+    overflow: hidden; /* Oculta cualquier parte de la imagen que sobresalga */
+    transform: translateY(-850%) translateX(400%);
+}
+
+.foto-container11 {
+    width: 100px; /* Fija el ancho del contenedor */
+    height: 200px; /* Fija la altura del contenedor */
+    overflow: hidden; /* Oculta cualquier parte de la imagen que sobresalga */
+    transform: translateY(-950%) translateX(600%);
+}
+
+.foto-container12 {
+    width: 100px; /* Fija el ancho del contenedor */
+    height: 200px; /* Fija la altura del contenedor */
+    overflow: hidden; /* Oculta cualquier parte de la imagen que sobresalga */
+    transform: translateY(-1050%) translateX(1260%);
+}
+
+.foto-container13 {
+    width: 100px; /* Fija el ancho del contenedor */
+    height: 200px; /* Fija la altura del contenedor */
+    overflow: hidden; /* Oculta cualquier parte de la imagen que sobresalga */
+    transform: translateY(-1150%) translateX(1380%);
+}
+
+.foto-container14 {
+    width: 100px; /* Fija el ancho del contenedor */
+    height: 200px; /* Fija la altura del contenedor */
+    overflow: hidden; /* Oculta cualquier parte de la imagen que sobresalga */
+    transform: translateY(-1250%) translateX(1550%);
+}
+
+.foto-container15 {
+    width: 100px; /* Fija el ancho del contenedor */
+    height: 200px; /* Fija la altura del contenedor */
+    overflow: hidden; /* Oculta cualquier parte de la imagen que sobresalga */
+    transform: translateY(-1350%) translateX(1700%);
+}
+
+.foto-container8:hover {
+    content: url('fc.png');
+}
+
+.foto-container9:hover {
+    content: url('DOFP.png');
+}
+
+.foto-container10:hover {
+    content: url('apo.png');
+}
+
+.foto-container11:hover {
+    content: url('dk.png');
+}
+
+.foto-container12:hover {
+    content: url('d1.png');
+}
+
+.foto-container13:hover {
+    content: url('d2.png');
+}
+
+.foto-container14:hover {
+    content: url('d3.png');
+}
+
+.foto-container15:hover {
+    content: url('logan.png');
+}
+
